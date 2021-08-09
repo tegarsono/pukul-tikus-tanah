@@ -1,9 +1,15 @@
 h1,
 h2 {
+  color: darkred;
   font-size: 60px;
   text-align: center;
-  font-family: arial;
+  font-family: Arial;
+  font-style: oblique;
   margin: 10px;
+}
+
+.playbutton {
+  background-color: darkolivegreen;
 }
 
 button {
@@ -53,3 +59,6 @@ button {
 .tanah.muncul .tangan {
   top: -15px;
 }
+
+body {
+  background-image: url(../img/backimg.jpg);
